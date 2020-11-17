@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env: 
       directory_path: .
-      check_link: true # set to false to remove linkcheck
+      check_link: false # set to false to remove linkcheck
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
