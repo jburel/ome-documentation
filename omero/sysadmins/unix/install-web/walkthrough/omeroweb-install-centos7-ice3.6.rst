@@ -1,8 +1,8 @@
 .. walkthroughs are generated using ansible, see 
 .. https://github.com/ome/omeroweb-install
 
-OMERO.web installation on CentOS 7 and IcePy 3.6
-================================================
+OMERO.web installation on CentOS and IcePy 3.6
+==============================================
 
 Please first read :doc:`../../server-centos7-ice36`.
 
