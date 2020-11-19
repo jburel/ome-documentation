@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env: 
-      directory_path: .
+      directory_path: ./omero
       check_link: false # set to false to remove linkcheck
     steps:
       - uses: actions/checkout@v2
@@ -25,8 +25,7 @@ jobs:
             echo "docs_command=make clean html linkcheck" >> $GITHUB_ENV
           else
             echo "docs_command=make clean html" >> $GITHUB_ENV
-          fi
-          
+          fi  
       - name: Build doc
         uses: ammaraskar/sphinx-action@master
         with:
