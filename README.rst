@@ -1,8 +1,8 @@
 Documentation files to be linked under the ``docs/sphinx`` directory of
 https://github.com/ome/openmicroscopy.
 
-.. image:: https://github.com/ome/ome-documentation/workflows/sphinx/badge.svg
-   :target: https://github.com/ome/ome-documentation/actions
+.. image:: https://github.com/jburel/ome-documentation/workflows/sphinx/badge.svg
+   :target: https://github.com/jburel/ome-documentation/actions
 
 ***************************
 Getting Started With Sphinx
